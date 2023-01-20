@@ -7,28 +7,36 @@
 	<title>My first site</title>
 </head>
 <style>
-	#bg {
-		background-image: url('bg3.webp');
-		background-size: cover;
-	}
-	h1 {padding: 10px;
-		box-sizing: border-box;
-		border: 5px solid brown;
-		margin: 0.5px;
-		font-size: 45px; color: rgb(51, 153, 144); font-weight: 
-		bold; font-family: 'Courier New', Courier, monospace; text-align:center; }
-	.red { color: brown; font-family: 'Times New Roman', Times, serif;}
-	.bgstyl { background-color: rgb(252, 252, 86);}
-	.bold {font-weight: bold;}
-	p ul {color: red;}
-	a:link {text-decoration: none;
+#bg {
+	background-image: url('bg3.webp');
+	background-size: cover;
+}
+h1 {padding: 10px;
+	box-sizing: border-box;
+	border: 5px solid brown;
+	margin: 0.5px;
+	font-size: 45px; color: rgb(51, 153, 144); font-weight: 
+	bold; font-family: 'Courier New', Courier, monospace; text-align:center; }
+.red { color: brown; font-family: 'Times New Roman', Times, serif;}
+.bgstyl { background-color: rgb(252, 252, 86);}
+.bold {font-weight: bold;}
+p ul {color: red;}
+a:link {text-decoration: none;
     background-color: aquamarine;
     border: 10px;color: solid brown;
     text-align: center;
     margin-bottom: 1px;
     display: block;}
-	a:hover {background-color: brown;
+a:hover {background-color: brown;
     color: chartreuse;}
+#p {
+	width: 50%;
+	float: left;
+	padding: 10px;}
+div {
+	clear: both;
+}
+* {box-sizing: border-box;}
 </style>
 <body id="bg">
 <header>
@@ -52,11 +60,16 @@
 		<li>Courier New (monospace)</li>
 		<li>Brush Script MT (cursive)</li></ul>
 <h2 class="red"><li>Subheading 2</li></h2></ol>
-	<article>WhatTheFont uses deep learning to search our collection of over 133,000 font styles and find the best match for the fonts in your photo. It even works with connected scripts and when there's more than one font in an image. Just upload an image, click the font you want to identify, then check out the results.
+	<p id="p">WhatTheFont uses deep learning to search our collection of over 133,000 font styles and find the best match for the fonts in your photo. It even works with connected scripts and when there's more than one font in an image. Just upload an image, click the font you want to identify, then check out the results.
 		For best results, upload a good quality image, and make sure the text is horizontal. We'll detect the text in the image automatically, then you can click the font you want. You can draw a manual crop box if you want, but be sure that you only draw it around one line of text.
 		Happy&nbsp;font&nbsp;hunting!
-	</article>
-	<p class="bgstyl"><span class="bold">NOTE:</span>Before you publish your website, always check how your fonts appear on different browsers and devices, and always use fallback fonts!</p>
+	</p>
+	<p id="p">
+		The word Font is often interchangeably used with the typeface. However, there is ever so slight difference between them. For example, the Times New Roman is a typeface that has different fonts under it- size, color, bold, italic, etc. The typeface is the design and the variations under it are fonts.
+	</p>
+	<div>
+		<p class="bgstyl"><span class="bold">NOTE:</span>Before you publish your website, always check how your fonts appear on different browsers and devices, and always use fallback fonts!</p>
+	</div>
 <footer>
 	<p>by Ansh varma &copy; Copyright</p>
 </footer>
