@@ -34,4 +34,7 @@ img {
 	h1 {
 		width: 90%;
 	}
+	a:link {
+		width: 90%;
+	}
 }
