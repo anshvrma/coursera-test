@@ -1,7 +1,3 @@
-#bg {
-	background-image: url('bg3.webp');
-	background-size: cover;
-}
 h1 {padding: 10px;
 	box-sizing: border-box;
 	border: 5px solid brown;
@@ -34,3 +30,7 @@ img {
 	width: 360px;
 	height: 200px;
 }
+#bg {
+	background-image: url("bg3.png");
+	background-size: cover;
+	}
