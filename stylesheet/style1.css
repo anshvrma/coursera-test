@@ -30,7 +30,3 @@ img {
 	width: 360px;
 	height: 200px;
 }
-#bg {
-	background-image: image('bg3.png');
-	background-size: cover;
-	}
