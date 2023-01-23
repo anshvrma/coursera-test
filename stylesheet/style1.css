@@ -30,3 +30,8 @@ img {
 	width: 360px;
 	height: 200px;
 }
+@media (max-width: 385px) {
+	h1 {
+		width: 90%;
+	}
+}
