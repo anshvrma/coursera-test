@@ -23,8 +23,8 @@ a:hover {background-color: brown;
 	margin-left: auto;
 	margin-bottom: 15px;
 }
-div {
-	clear: left;
+.div {
+	clear: both;
 }
 * {box-sizing: border-box;}
 img {
@@ -37,20 +37,18 @@ img {
 @media (min-width: 1200px) {
 	.col-lg-3, .col-lg-6 {
 		float: left;
-		border: 1px solid brown;
 	}
 	.col-lg-3 {
 		width: 25%;
 	}
 	.col-lg-6 {
-		width: 51%;
+		width: 49%;
 	}
 }
 /**medium Device only**/
 @media (min-width: 892px) and (max-width: 1199px) {
 	.col-md-3, .col-md-6 {
 		float: left;
-		border: 1px solid brown;
 	}
 	.col-md-3 {
 		width: 33.3%;
