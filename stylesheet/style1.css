@@ -17,11 +17,14 @@ a:link {text-decoration: none;
 a:hover {background-color: brown;
     color: chartreuse;}
 #p {
-	width: 50%;
-	float: left;
-	padding: 10px;}
+	width: 90%;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+}
 div {
-	clear: both;
+	clear: left;
 }
 * {box-sizing: border-box;}
 img {
@@ -30,35 +33,29 @@ img {
 	width: 360px;
 	height: 200px;
 }
-@media (max-width: 385px) {
-	h1 {
-		width: 90%;
-	}
-	a:link {
-		width: 90%;
-	}
-}
 /**Large device only**/
 @media (min-width: 1200px) {
-	.col-lg-1, .col-lg-2 {
+	.col-lg-3, .col-lg-6 {
 		float: left;
+		border: 1px solid brown;
 	}
-	.col-lg-1 {
+	.col-lg-3 {
 		width: 25%;
 	}
-	.col-lg-2 {
-		width: 66.6%;
+	.col-lg-6 {
+		width: 51%;
 	}
 }
 /**medium Device only**/
-@media (min-width: 992px) and (max-width: 1199px) {
-	.col-md-1, .col-md-2 {
+@media (min-width: 892px) and (max-width: 1199px) {
+	.col-md-3, .col-md-6 {
 		float: left;
+		border: 1px solid brown;
 	}
-	.col-md-1 {
+	.col-md-3 {
 		width: 33.3%;
 	}
-	.col-md-2 {
+	.col-md-6 {
 		width: 50%;
 	}
 }
