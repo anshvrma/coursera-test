@@ -1,9 +1,14 @@
 h1 {padding: 10px;
-	box-sizing: border-box;
 	border: 5px solid brown;
 	margin: 0.5px;
-	font-size: 45px; color: rgb(51, 153, 144); font-weight: 
-	bold; font-family: 'Courier New', Courier, monospace; text-align:center; }
+	font-size: 45px; color: rgb(51, 153, 144);
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace; 
+	text-align:center; 
+}
+header {
+	position: sticky;
+}
 .red { color: brown; font-family: 'Times New Roman', Times, serif;}
 .bgstyl { background-color: rgb(252, 252, 86);}
 .bold {font-weight: bold;}
