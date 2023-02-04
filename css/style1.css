@@ -90,3 +90,7 @@ button::before, button::after {
 a:link {
 	text-decoration: none;
 }
+#bg {
+	background-image: url("Images/bg3.png");
+	background-size: cover;
+}
