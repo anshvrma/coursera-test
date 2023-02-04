@@ -7,6 +7,12 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style1.css">
 <title>My first site</title>
+<style>
+	#bg {
+	background-image: url("Images/bg3.png");
+	background-size: cover;
+	}
+</style>
 </head>
 <body id="bg">
 <header>
@@ -44,10 +50,20 @@
 	<div class="bgstyl div"><span class="bold">NOTE:</span>Before you publish your website, always check how your fonts appear on different browsers and devices, and always use fallback fonts!</div>
 </div>
 <footer>
-	<button type="reset" class="btn-1">
-		<a href="index.html">Reset</a>
-	</button>
-	<p>by Ansh varma &copy; Copyright</p>
+	<div>
+		<button type="reset" class="btn-1">
+			<a href="index.html">Reset</a>
+		</button>
+	
+		<div id="phone" class="hidden-xs btn-2">
+			<a href="tel:959955999">
+				<span>959955999</span><div>*don't dial</div>
+			</a>
+		</div>
+	</div>
+	<div>
+		<p>by Ansh varma &copy; Copyright</p>
+	</div>	
 </footer>
 
 <script src="js/bootstrap.min.js"></script>

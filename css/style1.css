@@ -73,8 +73,9 @@ button {
 	z-index: 1;
 	padding: 7px 15px 7px 15px;
 	margin-top: 4px;
+	margin-left: 4px;
 	border-radius: 25px;
-	background-color: aquamarine;
+	background-color: #7fff7f;
 }
 button::before, button::after {
 	position: absolute;
@@ -90,7 +91,25 @@ button::before, button::after {
 a:link {
 	text-decoration: none;
 }
-#bg {
-	background-image: url("Images/bg3.png");
-	background-size: cover;
+#phone {
+	border:2px solid #a52a2a;
+	position: relative;
+	margin-top: 4px;
+	border-radius: 15px;
+	text-align: center;
+	width: 11.5%;
+	margin-left: 4px;
+	background-color: #7fff7f;
+	z-index: 1;
+	transition: .4 ease-in;
+}
+#phone::before, #phone::after {
+	position: relative;
+	content: "";
+	z-index: -1;
+}
+.btn-2:hover {
+	box-shadow: 5px 5px 0px #a52a2a;
+	top: 2px;
+	left: -2px;
 }
