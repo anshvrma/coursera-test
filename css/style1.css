@@ -15,7 +15,7 @@ header {
 .bold {font-weight: bold;}
 p ul {color: red;}
 .nav-link {text-decoration: none;
-    background-color: aquamarine;
+    background-image: linear-gradient(right, #095, #018);
     border: 10px;color: solid brown;
     text-align: center;
     margin-bottom: 1px;
