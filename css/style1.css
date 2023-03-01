@@ -20,8 +20,8 @@ p ul {color: red;}
     text-align: center;
     margin-bottom: 1px;
     display: block;}
-.nh:hover {background-color: brown;
-    color: chartreuse;}
+.nh:hover {background-color: darkred;
+    color: #e7e7e7;}
 #pr {
 	width: 90%;
 	padding: 10px;
